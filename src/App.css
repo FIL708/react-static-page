@@ -11,6 +11,13 @@ body {
     background-color: #21222A;
 }
 
+.container {
+    background-image: url(./images/logo192.png);
+    background-repeat: no-repeat;
+    background-position: -10% 100%;
+    background-size: 300px;
+    
+}
 .title-container {
     display: flex;
     justify-content: space-between;
@@ -35,6 +42,7 @@ body {
 .facts-container {
     margin: 30px auto;
     width: 50%;
+    
 
 }
  .facts-title {
@@ -52,4 +60,9 @@ body {
     color: #FFFFFF;
     line-height: 19px;
     padding-block: 10px;
+ }
+
+ .facts-list > li::marker {
+    color: #61DAFB;
+    font-size: 2rem;
  }
