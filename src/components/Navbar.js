@@ -1,4 +1,6 @@
 import logo from '../images/logo192.png'
+import { FaSun, FaMoon } from "react-icons/fa";
+
 export default function Navbar() {
     return (
         <nav className='navbar'>
@@ -9,7 +11,13 @@ export default function Navbar() {
                     className='logo'  />
                 <h3 className='page-title'>ReactFacts</h3>
             </div>
-            <h4 className='project-name'>React Course - Project 1</h4>
+            <div className='navbar--darMode'>
+                <FaSun className='navbar--sun'/>
+                <div className='navbar--toggleBar'>
+                    <div className='navbar--toggleCircle'></div>
+                </div>
+                <FaMoon className='navbar--moon'/>
+            </div>
         </nav>
     )
 }

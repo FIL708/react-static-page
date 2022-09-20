@@ -1,6 +1,9 @@
 body {
      background-color: #282D35;
 }
+
+/* #NAVBAR */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,6 +42,13 @@ body {
     font: 600 2.5rem 'Inter', sans-serif;
 }
 
+.navbar--toggleBar {
+    width: 25px;
+    height: 15px;
+    background-color: #2B283A;
+}
+
+/* #MAIN */
 .facts-container {
     margin: 30px auto;
     width: 50%;
