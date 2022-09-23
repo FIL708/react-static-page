@@ -15,10 +15,10 @@ function App() {
   const styles = {
     dark: {
       headerBgc: {
-        backGroundColor: "#21222A"
+        backgroundColor: "#21222A"
       },
       mainBgc: {
-        backGroundColor: "#F5F5F5"
+        backgroundColor: "#F5F5F5"
       },
       font: {
         color: "#FFFFFF"
@@ -28,8 +28,11 @@ function App() {
       }
     },
     light: {
-      bgc: {
-        backGroundColor: "#FFFFFF"
+      headerBgc: {
+        backgroundColor: "#F4ECD5"
+      },
+      mainBgc: {
+        backgroundColor: "#FFFFFF"
       },
       font: {
         color: "#2B283A"

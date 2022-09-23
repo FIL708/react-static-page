@@ -5,7 +5,10 @@ export default function Navbar(props) {
     console.log(props.styles);
     
     return (
-        <nav className='navbar'>
+        <nav 
+            className='navbar'
+            style={props.darkMode ? props.styles.dark.headerBgc : props.styles.light.headerBgc}
+        >
             <div className='title-container'>
                 <img 
                     src={logo}
