@@ -22,6 +22,9 @@ function App() {
       },
       font: {
         color: "#FFFFFF"
+      },
+      button: {
+        transform: "translateX(100%) translateY(-50%)"
       }
     },
     light: {
@@ -30,14 +33,24 @@ function App() {
       },
       font: {
         color: "#2B283A"
+      },
+      button: {
+        transform: "translateX(100%) translateY(-50%)"
       }
     }
   }
 
   return (
     <div className='container'>
-      <Navbar darkMode={darkMode} toggle={changeDarkMode} />
-      <Main darkMode={darkMode} />
+      <Navbar 
+        darkMode={darkMode} 
+        toggle={changeDarkMode} 
+        styles={styles} 
+      />
+      <Main 
+        darkMode={darkMode}
+        styles={styles}
+      />
     </div>
   )
 }
