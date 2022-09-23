@@ -8,6 +8,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(true)
 
   const changeDarkMode = () => {
+    console.log("turn")
     setDarkMode(prevState => !prevState)
   }
 
