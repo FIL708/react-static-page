@@ -35,7 +35,7 @@ function App() {
         color: "#2B283A"
       },
       button: {
-        transform: "translateX(100%) translateY(-50%)"
+        transform: "translateX(0) translateY(-50%)"
       }
     }
   }

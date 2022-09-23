@@ -63,10 +63,6 @@ body {
     
 }
 
-.navbar--toggleBar:hover .navbar--toggleCircle {
-    transform: translateX(100%) translateY(-50%);
-}
-
 .navbar--icon {
     font-size: 22px;
     
