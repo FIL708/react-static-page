@@ -53,8 +53,8 @@ body {
 .navbar--toggleCircle {
     position: absolute;
     top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
+    right: 50%;
+    transform: translate(50%, -50%);
     width: 22px;
     height: 22px;
     border-radius: 50px;
@@ -64,7 +64,7 @@ body {
 }
 
 .navbar--toggleBar:hover .navbar--toggleCircle {
-    transform: translateX(-105%) translateY(-50%);
+    transform: translateX(0%) translateY(-50%);
 }
 
 .navbar--icon {
@@ -77,14 +77,13 @@ body {
 .facts-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: calc(100vh - 90px);
     background-color: #282D35;
 }
  .facts-title {
-    padding: 57px 27px;
+    padding: 35px 27px;
     font: 600 3.9rem 'Inter', sans-serif;
     color: #FFFFFF;
     letter-spacing: -0.05em;

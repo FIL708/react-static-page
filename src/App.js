@@ -12,6 +12,28 @@ function App() {
     setDarkMode(prevState => !prevState)
   }
 
+  const styles = {
+    dark: {
+      headerBgc: {
+        backGroundColor: "#21222A"
+      },
+      mainBgc: {
+        backGroundColor: "#F5F5F5"
+      },
+      font: {
+        color: "#FFFFFF"
+      }
+    },
+    light: {
+      bgc: {
+        backGroundColor: "#FFFFFF"
+      },
+      font: {
+        color: "#2B283A"
+      }
+    }
+  }
+
   return (
     <div className='container'>
       <Navbar darkMode={darkMode} toggle={changeDarkMode} />

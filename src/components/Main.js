@@ -12,3 +12,7 @@ export default function Main() {
         </main>
     )
 }
+
+// git add .
+// git commit -m "styling"
+// git push -u origin main
