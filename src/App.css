@@ -75,7 +75,7 @@
  .facts-title {
     padding: 35px 27px;
     font: 600 3.9rem 'Inter', sans-serif;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     letter-spacing: -0.05em;
  }
 
@@ -86,7 +86,7 @@
 
  .facts-list > li {
     font: 600 1.6rem 'Inter', sans-serif;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     line-height: 19px;
     padding-block: 10px;
  }
