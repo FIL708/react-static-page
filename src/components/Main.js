@@ -23,7 +23,3 @@ export default function Main(props) {
         </main>
     )
 }
-
-// git add .
-// git commit -m "conditional styling"
-// git push -u origin main

@@ -29,7 +29,7 @@ function App() {
     },
     light: {
       headerBgc: {
-        backgroundColor: "#F4ECD5"
+        backgroundColor: "#e0aba8"
       },
       mainBgc: {
         backgroundColor: "#FFFFFF"
