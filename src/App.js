@@ -18,7 +18,7 @@ function App() {
         backgroundColor: "#21222A"
       },
       mainBgc: {
-        backgroundColor: "#F5F5F5"
+        backgroundColor: "#282D35"
       },
       font: {
         color: "#FFFFFF"
