@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import { useState } from 'react';
-
+// change all thing to be able to conditional rendering by changing classes!
 function App() {
   const [darkMode, setDarkMode] = useState(true)
 
